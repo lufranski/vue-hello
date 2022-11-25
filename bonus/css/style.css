@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#flex {
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#buongiorno {
+    background-image: url(../img/Flag_of_Italy.svg.png);
+    background-size: cover;
+}
+
+#bonjour {
+    background-image: url(../img/Flag-France.webp);
+    background-size: cover;
+}
+
+#ueue {
+    background-image: url(../img/napoli.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#out {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#out > img {
+    max-width: 300px;
+}
